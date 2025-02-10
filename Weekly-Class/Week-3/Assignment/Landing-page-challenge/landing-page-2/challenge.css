@@ -1,0 +1,165 @@
+/* Challenge CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    /* Add styles for the navbar */
+    display: inline-flex;
+    align-items: center;
+    gap: 80vw;
+    background-color: rgb(44, 42, 42);
+    width: 100vw;
+  }
+  
+  .logo {
+    /* Add styles for the logo */
+    display: inherit;
+    align-items: center;
+    gap: 12px;
+    color: rgba(0, 255, 64, 0.733);
+    border-radius: 53%;
+    object-fit: cover;
+    cursor: pointer;
+    font-size: 22px;
+    padding-top: 8px;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+  }
+  
+  .logo img {
+    /* Add styles for the logo image */
+    border-radius: 53%;
+    height: 37px;
+    width: fit-content;
+    margin-left: 24px;
+  }
+  
+  .menu a {
+    /* Add styles for the navigation links */
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.685);
+    padding-top: 17px;
+    font-size: 19px;
+  }
+  
+  .menu a:hover {
+    /* Add hover styles for navigation links */
+    color: white;
+    transition: 0.5s ease-in-out;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    /* Add styles for the hero section */
+  }
+  
+  .hero-content {
+    /* Add styles for the hero content container */
+    text-align: center;
+    margin-top: 170px;
+  }
+  
+  .hero-content h1 {
+    /* Add styles for the hero heading */
+    margin: 10px 0px;
+    color: rgba(0, 255, 64, 0.733);
+    font-size: 39px;
+  }
+  
+  .hero-content p {
+    /* Add styles for the hero paragraph */
+    margin: 14px;
+    font-size: 19px;
+    color: white;
+  }
+  
+  .hero-content img {
+    /* Add styles for the image in the hero section */
+    margin-left: -19px;
+    border: 3px solid rgba(0, 255, 64, 0.733);
+    border-radius: 14px;
+  }
+  
+  .enroll-button {
+    /* Add styles for the enroll button */
+    display: block;
+    margin: 23px 47.4vw;
+    padding: 10px 6px;
+    height: auto;
+    width: 112px;
+    border-color: transparent;
+    border-radius: 14px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .enroll-button:hover {
+    /* Add hover styles for the enroll button */
+    background-color: rgba(20, 204, 20, 0.836);
+    transition: 0.4s ease-in-out;
+  }
+  
+  /* Highlights section styles */
+  .highlights {
+    /* Add styles for the highlights section */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(0 0 0 / 76%);
+    height: 34vh;
+    margin-top: 9vh;
+  }
+  
+  .highlight-card {
+    /* Add styles for each highlight card */
+    height: 12vh;
+    width: 16vw;
+    margin: 53px 10px;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 17px;
+    background-color: #00000082;
+    cursor: pointer;
+  }
+  .highlight-card:hover {
+    box-shadow: 2px 2px 9px rgba(192, 189, 189, 0.562);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .highlight-card h3 {
+    /* Add styles for highlight card headings */
+    color: greenyellow;
+  }
+  
+  .highlight-card p {
+    /* Add styles for highlight card paragraphs */
+  }
+  .highlight-card img {
+    /* background-color: black; */
+  }
+  .logo img:hover {
+    box-shadow: 0 0 8px rgb(255 141 0 / 94%);
+    transition: 0.6s ease-in-out;
+  }
+  .logo:hover {
+    color: green;
+    transition: 0.5s ease-in-out;
+  }
+  body {
+    background-image: url(./assets/chaicohort.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

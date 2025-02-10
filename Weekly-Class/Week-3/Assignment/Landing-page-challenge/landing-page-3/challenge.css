@@ -1,0 +1,152 @@
+/* Challenge CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header {
+    /* Define header styles here */
+    display: inline-flex;
+    align-items: center;
+    gap: 67vw;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .logo {
+    /* Define logo styles here */
+    display: inherit;
+    align-items: center;
+    gap: 12px;
+    color: orange;
+    border-radius: 53%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .logo:hover {
+    color: brown;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .logo img {
+    /* Define image styles within the logo here */
+    border-radius: 53%;
+    height: 31px;
+    width: fit-content;
+    margin-left: 24px;
+  }
+  .logo img:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.834);
+    transition: 0.6s ease-in-out;
+  }
+  
+  .nav-menu a {
+    /* Define navigation link styles here */
+    text-decoration: none;
+    margin-right: 26px;
+    color: rgb(255, 140, 0);
+  }
+  
+  .nav-menu a:hover {
+    /* Define hover styles for navigation links here */
+    color: brown;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .hero {
+    /* Define hero section styles here */
+    text-align: center;
+    background-image: url(https://image.shutterstock.com/image-photo/indian-masala-chai-tea-traditional-260nw-2044313834.jpg);
+    object-fit: contain;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    height: 223px;
+  }
+  
+  .hero-text h1 {
+    /* Define styles for h1 in hero-text here */
+    font-weight: 900;
+    /* margin: 12px 0px; */
+    margin-bottom: 12px;
+    font-size: 34px;
+    padding-top: 39px;
+  }
+  
+  .hero-text p {
+    /* Define styles for paragraph in hero-text here */
+    font-size: 13px;
+    font-weight: 550;
+  }
+  
+  .shop-button {
+    /* Define shop button styles here */
+    margin: 25px 0px;
+    padding: 10px 24px;
+    border-color: transparent;
+    border-radius: 36px;
+    background-color: rgba(255, 166, 0, 0.821);
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+  }
+  
+  .shop-button:hover {
+    /* Define hover styles for shop button here */
+    background-color: rgba(180, 143, 75, 0.759);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .tea-collection {
+    /* Define tea collection section styles here */
+    height: 60vh;
+  }
+  
+  .tea-collection h2 {
+    /* Define styles for h2 in tea collection here */
+    text-align: center;
+    padding: 17px 0px;
+    font-size: 27px;
+    color: darkorange;
+  }
+  
+  .tea-cards {
+    /* Define tea cards container styles here */
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+    gap: 19px;
+    grid-template-columns: 370px 370px 370px;
+    margin-left: 188px;
+    margin-top: 18px;
+  }
+  
+  .tea-card {
+    /* Define styles for each tea card here */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.232);
+    border-radius: 16px;
+    border-color: transparent;
+    padding: 0px 28px 1px 28px;
+  }
+  
+  .tea-card h3 {
+    /* Define styles for tea card headings here */
+    color: brown;
+  }
+  
+  .tea-card p {
+    /* Define styles for tea card paragraph text here */
+  }
+  .tea-card:hover {
+    box-shadow: 2px 2px 9px rgba(2, 2, 2, 0.375);
+    cursor: pointer;
+  }
+  
