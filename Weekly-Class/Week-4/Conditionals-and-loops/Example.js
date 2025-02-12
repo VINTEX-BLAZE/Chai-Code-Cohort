@@ -1,4 +1,4 @@
-console.log("🔹 Conditional Statements:");
+console.log(" Conditional Statements:");
 
 // ✅ IF-ELSE
 let age = 20;
