@@ -1,0 +1,100 @@
+/* initial styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+}
+/* styled the body */
+body{
+    background-color: hsl(0, 0%, 85%);
+}
+/* styling the container */
+.container{
+    /* border: 2px solid green; */
+    margin: auto;
+    width: 12.2vw;
+    /* display: inline-block; */
+    height: 30vh;
+    justify-self: center;
+    height: 32vh;
+    background-color: hsl(0,0%,15%);
+    margin-top: 20vh;
+    border-radius: 14px;
+    box-shadow: 0 0 10px hsl(0, 0%, 15%);
+    transition: ease-in-out;
+    transition-duration: 20ms;
+}
+.container:hover{
+    box-shadow: 0 0 17px hsl(0, 0%, 15%); 
+}
+/* Styling the display section */
+input{
+    justify-self:center;
+    border: none;
+    text-align: right;
+    height: 4rem;
+    width: 19.5rem;
+    overflow: hidden;
+    font-size: 2.4rem;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-top: 0.5vh;
+    background-color: hsl(0,0%,20%);
+    font-family: inherit ;
+    color: white;
+    padding-right: 15px;
+
+}
+input:focus-visible{
+    outline : none;
+}
+input::placeholder{
+    color: white;
+}
+/* Styling the btns */
+button{
+    /* padding: 10px 20px; */
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    justify-self: center;
+    border: none;
+    cursor: pointer;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    width: 312px;
+    height: 326px;
+    padding: 3px;
+    gap: 3px;
+}
+.top-three{
+    background-color: hsl(0,0%,30%);
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+}
+.top-three:hover{
+    background-color: hsl(0,0%,45%);
+}
+.numbers{
+    background-color: hsl(0,0%,30%);
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+}
+.numbers:hover{
+    background-color: hsl(0,0%,45%);
+}
+.operators{
+    background-color: rgba(206, 146, 28, 0.877);
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+}
+.operators:hover{
+    background-color: rgb(206, 147, 28);
+}
