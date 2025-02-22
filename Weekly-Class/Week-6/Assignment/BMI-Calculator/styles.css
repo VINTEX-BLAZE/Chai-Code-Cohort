@@ -1,0 +1,166 @@
+/* initial styling */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* styled the body */
+body{
+    background-color: #99a3ad42;
+    height: 100vh;
+}
+/* styling the heading part(h1) */
+h1{
+    justify-self: center;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    color: #4696ec;
+    font-family: inherit ;
+}
+/* styling the container */
+.container{
+    margin: auto auto;
+    width: 12vw;
+    height: 37vh;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.164);
+    overflow: hidden;
+}
+.container:hover{
+    box-shadow: 5px 5px 10px hsl(0, 0%, 65%);
+}
+/* styling the data reciving part */
+.data-entry{
+    display: grid;
+    grid-template-columns: 60px 190px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh;
+    font-family: inherit ;
+
+}
+label{
+    /* padding-left: 2px; */
+    justify-self: center;
+    align-self: center;
+    font-weight: bolder;
+    font-family: inherit ;
+}
+input:focus {
+    outline: none;
+    border: 2px solid #b0d0f0; /* Light blue border for a smooth focus effect */
+    box-shadow: 0 0 5px rgba(34, 139, 230, 0.5); /* Soft glow effect */
+}
+input{
+    height: 3.1vh;
+ border-radius: 8px;
+ border-color: rgba(73, 67, 67, 0.219);
+ border-width: 1px;
+ font-size: 14px;
+ padding-left: 0.4vw;
+}
+::placeholder{
+    font-family: inherit ;
+}
+/* removed the up & down arrow buttons of the input(number) tag */
+input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+/* styling individual lebels */
+.age{
+    justify-self: center;
+    align-self: center;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.Weight {
+    padding-right: 10px;
+    font-size: 16px;
+}
+.Height{
+    padding-right: 9px;
+    font-size: 16px;
+}
+/* Stying the gender selection btns */
+.gender-selector-btns{
+    margin: 2.5vh 0vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.male-btn{
+    padding: 9px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    background-color: #d6e6f5;
+    font-size: 14px;
+}
+.male-btn:hover{
+    cursor: pointer;
+    background-color: #b0d0f0;
+    transition: ease-in-out;
+    transition-delay: 10ms;
+    transition-duration: 5ms;
+    box-shadow: 0 0 7px #b0d0f0;
+}
+.female-btn{
+    padding: 7px 27px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 550;
+    background-color: #d6e6f5;
+    font-size: 14px;
+}
+.female-btn:hover{
+    cursor: pointer;
+    background-color: #b0d0f0;
+    transition: ease-in-out;
+    transition-delay: 10ms;
+    transition-duration: 5ms;
+    box-shadow: 0 0 7px #b0d0f0;
+}
+/* Styling the Calculate BMI btn */
+.bmi{
+    width: 9.9vw;
+    padding: 12px 0px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 3px;
+    background-color: #228be6;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.bmi:hover{
+    cursor: pointer;
+    background-color: #1a6fc2;
+    transition: ease-in-out;
+    transition-delay: 10ms;
+    transition-duration: 5ms;
+    box-shadow: 0 0 5px #1a6fc2;; /* Soft glow effect */
+}
+/* Styling the result partt */
+h3{
+    display: inline-block;
+    /* font-size: 16px; */
+}
+.BMI-result{
+    margin: 10px 2px;
+    margin-top: 24px;
+}
+.bmi-optput{
+    padding-left: 7px;
+}
+.verdict{
+    margin: 0px 2px;
+}
+.verdict-output{
+    padding-left: 7px;
+}

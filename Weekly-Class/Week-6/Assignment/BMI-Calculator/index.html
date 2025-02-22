@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1>BMI Calculator</h1>
+        <div class="container">
+            <div class="data-entry">
+                <label class="age" for="age">Age</label>
+                <input class="age-input" type="number" placeholder="Enter your age" required id="age">
+                <label class="Height" for="Height-cm">Height<br>(cm)</label>
+                <input type="number" placeholder="Enter your height" required id="Height-cm">
+                <label class="Weight" for="Weight-Kg">Weight<br>(Kg)</label>
+                <input type="number" placeholder="Enter your weight" required id="Weight-Kg">
+            </div>
+            <div class="gender-selector-btns">
+                <button class="male-btn">Male</button>
+                <button class="female-btn">Female</button>
+            </div>
+            <button class="bmi">Calculate BMI</button>
+            <div class="result">
+                <div class="BMI-result">
+                    <h3>BMI : </h3>
+                    <span class="bmi-output"></span>
+                </div>
+                <div class="verdict">
+                    <h3>Result : </h3>
+                    <span class="verdict-output"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
