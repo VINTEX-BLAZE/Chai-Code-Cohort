@@ -1,4 +1,4 @@
-### Week-02
+### Week-2
 
 Eraser Link of this week 👇
 
