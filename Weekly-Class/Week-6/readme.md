@@ -1,6 +1,6 @@
 ### Week-6
 
-Eraser Link 👇
+Eraser Link of this week 👇
 
 1. [JS Objects and Prototypes](https://app.eraser.io/workspace/MSKrHtmZxpvUgZqn5qGq)
 
