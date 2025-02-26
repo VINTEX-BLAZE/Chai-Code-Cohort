@@ -9,3 +9,5 @@ Eraser Link of this week 👇
 3. [Js Projects and behind the Scene](https://app.eraser.io/workspace/lzmyfFQS1GM75NmeJoE9)
 
 4. [Projects and Machine Coding Round](https://app.eraser.io/workspace/5fIzIIm6bQSdotX21BTw?origin=share)
+
+5. [Machine Coding and Resources](https://app.eraser.io/workspace/5fIzIIm6bQSdotX21BTw)
