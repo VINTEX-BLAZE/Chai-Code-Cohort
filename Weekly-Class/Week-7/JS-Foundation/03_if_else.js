@@ -62,12 +62,12 @@ function checktruthyValue(value) {
   }
 }
 
-checktruthyValue(1)
-checktruthyValue(0)
-checktruthyValue("hitesh")
-checktruthyValue("")
-checktruthyValue([])
-checktruthyValue([1, 2, 3])
+checktruthyValue(1) // true
+checktruthyValue(0) // false
+checktruthyValue("hitesh") // true
+checktruthyValue("") // false
+checktruthyValue([]) // true
+checktruthyValue([1, 2, 3]) // true 
 
 
 function login(username, password){
